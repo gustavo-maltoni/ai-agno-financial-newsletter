@@ -46,7 +46,7 @@ def send_email_sendgrid_api_tool(subject, content):
             timeout=30
         )
 
-        return str(response.status_code) + ' - Email successufully sent!'
+        return str(response.status_code) + ' - Email successfully sent!'
         
     except Exception as e:
         return f'Exception: {e}'
