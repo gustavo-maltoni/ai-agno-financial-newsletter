@@ -190,7 +190,7 @@ FINAL VALIDATION (internal, do not display):
 
 DELIVERY AND SENDING (mandatory):
 1) Generate the newsletter exactly in the format above.
-2) At the end, use the send_email_tool function to send the email with:
+2) At the end, use the send_email_sendgrid_api_tool function to send the email with:
    - subject: "AI Financial Newsletter - [DATE]" (replace [DATE] with the current date)
    - content: the complete text of the generated newsletter
 

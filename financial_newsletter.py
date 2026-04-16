@@ -62,8 +62,7 @@ agent = Agent(
     ),
     tools=[
         TavilyTools(
-            search_depth="basic",
-            max_tokens=150
+            search_depth="basic"
         ),
         send_email_sendgrid_api_tool
     ],
